@@ -1,13 +1,36 @@
 .App {
   text-align: center;
 }
+
 a.disabled {
   pointer-events: none;
   cursor: default;
 }
+.search-label{
+  position: relative;
+}
 body{
-  /* background-color: #1E2124; */
   background-color:#101010;
+}
+.container{
+  width:100%;
+  max-width: 450px;
+}
+::placeholder {
+  color: gray;
+  opacity: 1; 
+}
+.inp{
+  text-align: center;
+}
+:-ms-input-placeholder { 
+  color: gray;
+
+}
+
+::-ms-input-placeholder { 
+  color: gray;
+
 }
 .filter{
   max-width: 500px;
@@ -17,8 +40,6 @@ body{
 }
 .card{
   background-color:  	#181818;
-  /* margin:2px; */
-  /* margin-bottom: 2px; */
 }
 .heading{
   font-family: 'Reggae One', cursive;
@@ -34,7 +55,7 @@ img{
   height:200px;
   width:200px;
   margin-right: 200px;
-  margin-left: 20px;
+  margin-left: 100px;
   margin-top: 20px;
 
 }

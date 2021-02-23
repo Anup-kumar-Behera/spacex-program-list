@@ -23,9 +23,8 @@ class Successful_Land extends Component {
 
     render() {
         let {isLoaded, dataFromApi} = this.state
-
         return (
-            <Base title="All Successful Landings by SpaceX">
+            <Base title="All Successful Landings">
                 <div>
                     {!isLoaded? (<div className="d-flex text-white justify-content-center">
                         <div className="spinner-border text-primary" role="status" style={{marginTop:'200px'}}>

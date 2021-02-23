@@ -24,14 +24,14 @@ class Successful_launch extends Component {
         let {isLoaded, dataFromApi} = this.state
 
          return (
-            <Base title="All Successful Launches by SpaceX">
+            <Base title="All Successful Launches">
                 <div>
                     {!isLoaded? (<div className="d-flex text-white justify-content-center">
                         <div className="spinner-border text-primary" role="status" style={{marginTop:'200px'}}>
                             <span className="visually-hidden">Loading...</span>
                         </div>
                     </div>) :
-                        <TableData dataFromApi={dataFromApi}/>
+                        <TableData dataFromApi={dataFromApi} />
                     }
                 </div>
             </Base>
