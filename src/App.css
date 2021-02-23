@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+body{
+  /* background-color: #1E2124; */
+  background-color:#101010;
+}
+.filter{
+  max-width: 500px;
+  margin:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card{
+  background-color:  	#181818;
+  /* margin:2px; */
+  /* margin-bottom: 2px; */
+}
+.heading{
+  font-family: 'Reggae One', cursive;
+}
+.navbar{
+  height:80px;
+}
+.container-loading{
+  margin-top:100px;
+  margin-bottom:auto;
+}
+img{
+  height:200px;
+  width:200px;
+  margin-right: 200px;
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
