@@ -1,7 +1,10 @@
 .App {
   text-align: center;
 }
-
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
 body{
   /* background-color: #1E2124; */
   background-color:#101010;

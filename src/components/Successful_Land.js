@@ -27,7 +27,6 @@ class Successful_Land extends Component {
         return (
             <Base title="All Successful Landings by SpaceX">
                 <div>
-                    {console.log(dataFromApi)}
                     {!isLoaded? (<div className="d-flex text-white justify-content-center">
                         <div className="spinner-border text-primary" role="status" style={{marginTop:'200px'}}>
                             <span className="visually-hidden">Loading...</span>

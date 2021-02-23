@@ -26,7 +26,6 @@ class AllData extends Component {
         return (
             <Base title="All SpaceX Programs">
                 <div>
-                    {console.log(dataFromApi)}
                     {!isLoaded? (<div className="d-flex text-white justify-content-center">
                         <div className="spinner-border text-primary" role="status" style={{marginTop:'200px'}}>
                             <span className="visually-hidden">Loading...</span>
