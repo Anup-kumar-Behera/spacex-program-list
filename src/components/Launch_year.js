@@ -16,7 +16,7 @@ class Launch_year extends Component {
         this.cancel = ''
     }
     componentDidMount(){
-        fetch(`https://api.spacexdata.com/v3/launches?limit=100&launch_success=true&land_success=true&launch_year=${this.state.year}`)
+        fetch(`https://api.spacexdata.com/v3/launches?limit=1000`)
         .then(res => res.json())
         .then(json => {
             this.setState({
