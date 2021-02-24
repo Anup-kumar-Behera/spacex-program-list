@@ -1,3 +1,20 @@
+# Technology 
+ In this project I have used ReactJs library for front-end
+ 
+# Approach
+- This project is mainly composed of reusable componets.
+- Here, I have used AllData, successful_launch, Successful_land, launch_year components to load respective json data.
+- In each of the above component it's fetching the json data from the 'API' in the componentDidMount method and stores the fetched json data in its state array.
+- initially state array ('dataFromApi') is empty, but after rendering its updating its state array.
+- In each component I am rendering the fetched data in a table format by injecting the 'TableData' component inside it.
+- I'm passing the state array('dataFromApi') to the 'TableData' copmonent as a prop.
+- Here, I've used four routes '/', '/successful_launch', '/successful_land' and '/launch_year' to represent respective program data in respective page.
+- All the routes are mentioned in the '/src/Routes.js' file.
+- I've wrapped the 'Routes' by 'BrowserRouter' module from 'react-router-dom' in 'index.js' file.
+- Here, I'm using Link from 'react-router-dom' instead of 'a' tag to prevent the page from refreshing.
+- Inside 'TableData' component I'm using a 'bootstrap-card' to show each program with details.
+- Inside 'Card' I am looping for each program.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
