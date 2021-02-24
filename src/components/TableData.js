@@ -19,7 +19,7 @@ const TableData = (props) => {
                                                     <div className="card-body ">
                                                         <h5 className="card-title"><i>Mission-Name: </i><strong>{item.mission_name}</strong> </h5>
                                                         <p className="card-text"><strong>Launch-Year:</strong> {item.launch_year}  |   <strong>Flight_number:</strong> {item.flight_number} </p>
-                                                        <p><strong>Rocket_name:</strong>  <i>{ item.rocket.rocket_name}</i> </p>
+                                                        <p><strong>Rocket_name:</strong>  <i>{ item.rocket.rocket_name}</i>  | launch_success: {item.launch_success? <i>Success</i> : <i>Failure</i>}</p>
                                                         <p><strong>Launch_site:</strong>  <i>{ item.launch_site.site_name_long}</i> </p>
                                                         <p className="card-text">{item.details}</p>
                                                         <a href={item.links.wikipedia}>More</a>

@@ -33,7 +33,7 @@ class Launch_year extends Component {
         })
     }
     onSearch = (year) => {
-        const searchUrl = `https://api.spacexdata.com/v3/launches?limit=100&launch_success=true&land_success=true&launch_year=${year}`
+        const searchUrl = `https://api.spacexdata.com/v3/launches?limit=100&launch_year=${year}`
         if(this.cancel){
             this.cancel.cancel()
         }
